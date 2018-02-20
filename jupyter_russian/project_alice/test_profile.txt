@@ -1,0 +1,8 @@
+stroke = ['a']*100000
+for i in range(100000):
+	if (i % 2 == 0):
+		stroke+='b'
+		stroke[i] = 't'
+	else:
+		stroke+='c'
+print(len(stroke))
