@@ -93,7 +93,7 @@ def encode(x):
 
 
 def get_data():
-    with open('train.json', 'r') as raw_data:
+    with open('../../data/train.json', 'r') as raw_data:
         data = json.load(raw_data)
 
     df = pd.DataFrame(data)
